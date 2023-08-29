@@ -6,7 +6,7 @@ export function Treinamento() {
     <>
         <GridBackground container justifyContent='center' py={10}>
             <Grid lg={10} md={11} sm={11} xs={11}>
-                <Grid py={5} textAlign='center'>
+                <Grid textAlign='center'>
                     <Title>Nosso treinamento sobre agricultura de precisão!</Title>
                 </Grid>
             </Grid>
