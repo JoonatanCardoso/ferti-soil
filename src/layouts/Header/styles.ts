@@ -13,7 +13,7 @@ export const Content = styled.div`
   width: 100vw;
   justify-content: space-between;
   flex-direction: row;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
   a {
     text-decoration: none;
   }

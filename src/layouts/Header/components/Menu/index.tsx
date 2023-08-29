@@ -11,10 +11,10 @@ export function Menu() {
         <Image src='images/fertisoil.png' alt='Logo' height={100} width={100}></Image>
       </Grid>
       <Grid>
-        <Button>{t('QUEM_SOMOS')}</Button>
-        <Button>{t('PLANOS')}</Button>
-        <Button>{t('TREINAMENTO')}</Button>
-        <Button>{t('FALE_CONOSCO')}</Button>
+        <Button sx={{color: 'black'}}>{t('QUEM_SOMOS')}</Button>
+        <Button sx={{color: 'black'}}>{t('PLANOS')}</Button>
+        <Button sx={{color: 'black'}}>{t('TREINAMENTO')}</Button>
+        <Button sx={{color: 'black'}}>{t('FALE_CONOSCO')}</Button>
       </Grid>
     </Grid>
   )
