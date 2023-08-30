@@ -1,34 +1,37 @@
 import { Button, Grid } from "@mui/material";
+import * as i18n from 'react-i18next';
 import { Check, SubTitle, Text, TextVantagem, Title, Value } from "./styles";
 
 export function Planos() {
+    const { t } = i18n.useTranslation('PLANOS');
+
     return (
     <>
         <Grid bgcolor={'#78a92d'} container justifyContent='center' py={10}>
             <Grid container justifyContent='center' lg={10} md={12} sm={12} xs={11}>
                 <Grid py={5} textAlign='center'>
-                    <Title>Desbloqueie o potencial da terra!</Title>
-                    <SubTitle>Nossos planos de contratação de coleta de solo em hectares vão transformar a maneira como você cultiva, um hectare de cada vez.</SubTitle>
+                    <Title>{t('TITLE')}</Title>
+                    <SubTitle>{t('SUB_TITLE')}</SubTitle>
                 </Grid>
                 <Grid container direction='column' justifyContent='space-between' bgcolor={"#ffffff"} lg={3} md={3} sm={10} xs={12} margin={1} textAlign='center' minHeight={600}>
                     <Grid py={5} bgcolor={"#01c9a4"}>
-                        <Value>R$100,00</Value>
+                        <Value>{t('VALUE1')}</Value>
                         <Text>
-                            Plano Mensal
+                            {t('NAMEPLAN1')}
                         </Text>
                     </Grid>
                     <Grid>
                         <TextVantagem>
                             <Check src="images/checkVerde.svg" alt="Check"/>
-                            Vantagem
+                            {t('VANTAGEMPLAN1_1')}
                         </TextVantagem>
                         <TextVantagem>
                             <Check src="images/checkVerde.svg" alt="Check"/>
-                            Vantagem
+                            {t('VANTAGEMPLAN1_1')}
                         </TextVantagem>
                         <TextVantagem>
                             <Check src="images/checkVerde.svg" alt="Check"/>
-                            Vantagem
+                            {t('VANTAGEMPLAN1_1')}
                         </TextVantagem>
                     </Grid>
                     <Grid p={5}>
@@ -37,27 +40,27 @@ export function Planos() {
                 </Grid>
                 <Grid container direction='column' justifyContent='space-between' bgcolor={"#ffffff"} lg={3} md={3} sm={10} xs={12} margin={1} textAlign='center'>
                     <Grid py={5} bgcolor={"#feba43"}>
-                        <Value>R$500,00</Value>
+                        <Value>{t('VALUE2')}</Value>
                         <Text>
-                            Plano Semestral
+                            {t('NAMEPLAN2')}
                         </Text>
                     </Grid>
                     <Grid py={5}>
                         <TextVantagem>
                             <Check src="images/checkAmarelo.svg" alt="Check"/>
-                            Vantagem
+                            {t('VANTAGEMPLAN2_1')}
                         </TextVantagem>
                         <TextVantagem>
                             <Check src="images/checkAmarelo.svg" alt="Check"/>
-                            Vantagem
+                            {t('VANTAGEMPLAN2_1')}
                         </TextVantagem>
                         <TextVantagem>
                             <Check src="images/checkAmarelo.svg" alt="Check"/>
-                            Vantagem
+                            {t('VANTAGEMPLAN2_1')}
                         </TextVantagem>
                         <TextVantagem>
                             <Check src="images/checkAmarelo.svg" alt="Check"/>
-                            Vantagem
+                            {t('VANTAGEMPLAN2_1')}
                         </TextVantagem>
                     </Grid>
                     <Grid p={5}>
@@ -66,23 +69,31 @@ export function Planos() {
                 </Grid>
                 <Grid container direction='column' justifyContent='space-between' bgcolor={"#ffffff"} lg={3} md={3} sm={10} xs={12} margin={1} textAlign='center'>
                     <Grid py={5} bgcolor={"#fe6c6c"}>
-                        <Value>R$1.000,00</Value>
+                        <Value>{t('VALUE3')}</Value>
                         <Text>
-                            Plano Anual
+                            {t('NAMEPLAN3')}
                         </Text>
                     </Grid>
                     <Grid py={5}>
                         <TextVantagem>
                             <Check src="images/checkVermelho.svg" alt="Check"/>
-                            Vantagem
+                            {t('VANTAGEMPLAN3_1')}
                         </TextVantagem>
                         <TextVantagem>
                             <Check src="images/checkVermelho.svg" alt="Check"/>
-                            Vantagem
+                            {t('VANTAGEMPLAN3_1')}
                         </TextVantagem>
                         <TextVantagem>
                             <Check src="images/checkVermelho.svg" alt="Check"/>
-                            Vantagem
+                            {t('VANTAGEMPLAN3_1')}
+                        </TextVantagem>
+                        <TextVantagem>
+                            <Check src="images/checkVermelho.svg" alt="Check"/>
+                            {t('VANTAGEMPLAN3_1')}
+                        </TextVantagem>
+                        <TextVantagem>
+                            <Check src="images/checkVermelho.svg" alt="Check"/>
+                            {t('VANTAGEMPLAN3_1')}
                         </TextVantagem>
                     </Grid>
                     <Grid p={5}>
