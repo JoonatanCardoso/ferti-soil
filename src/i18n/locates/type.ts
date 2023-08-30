@@ -18,4 +18,9 @@ export type ResourceI18nType = {
     TREINAMENTO: string
     FALE_CONOSCO: string
   }
+  QUEM_SOMOS: {
+    TITLE: string,
+    TEXT1: string,
+    TEXT2: string
+  }
 }
