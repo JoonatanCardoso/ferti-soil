@@ -33,17 +33,10 @@ export type ResourceI18nType = {
     NAMEPLAN2: string
     NAMEPLAN3: string
     VANTAGEMPLAN1_1: string
-    VANTAGEMPLAN1_2: string
-    VANTAGEMPLAN1_3: string
     VANTAGEMPLAN2_1: string
     VANTAGEMPLAN2_2: string
-    VANTAGEMPLAN2_3: string
-    VANTAGEMPLAN2_4: string
     VANTAGEMPLAN3_1: string
     VANTAGEMPLAN3_2: string
-    VANTAGEMPLAN3_3: string
-    VANTAGEMPLAN3_4: string
-    VANTAGEMPLAN3_5: string
   }
   TREINAMENTO: {
     TITLE: string
@@ -56,5 +49,12 @@ export type ResourceI18nType = {
     TEXT2: string
     TEXT3: string
     TEXT4: string
+  }
+  FORM: {
+    SUB_TITLE: string,
+    TITLE: string,
+    TEXT_IMG: string,
+    TEXT: string,
+
   }
 }

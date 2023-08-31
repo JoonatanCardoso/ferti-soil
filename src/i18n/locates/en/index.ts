@@ -1,5 +1,6 @@
 import { MenuEN } from '@/i18n/locates/en/Menu'
 import { ResourceI18nType } from '@/i18n/locates/type'
+import { FormEN } from './Form'
 import { PlanosEN } from './Planos'
 import { QuemSomosEN } from './QuemSomos'
 import { TreinamentoEN } from './Treinamento'
@@ -10,5 +11,6 @@ export const ResourceI18nEN: ResourceI18nType = {
   QUEM_SOMOS: QuemSomosEN,
   PLANOS: PlanosEN,
   TREINAMENTO: TreinamentoEN,
+  FORM: FormEN,
   FOOTER: footer,
 }
