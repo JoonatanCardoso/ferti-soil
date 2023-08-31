@@ -12,5 +12,5 @@ export const Title = styled.div`
 
   export const Text = styled.div`
     margin-top: 30px;
-    font-size: 30px
+    font-size: 24px
   `
