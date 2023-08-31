@@ -26,12 +26,15 @@ export type ResourceI18nType = {
   PLANOS: {
     TITLE: string
     SUB_TITLE: string
+    VALUEFREE: string
     VALUE1: string
     VALUE2: string
     VALUE3: string
+    NAMEPLANFREE: string
     NAMEPLAN1: string
     NAMEPLAN2: string
     NAMEPLAN3: string
+    VANTAGEMPLANFREE_1: string
     VANTAGEMPLAN1_1: string
     VANTAGEMPLAN2_1: string
     VANTAGEMPLAN2_2: string
