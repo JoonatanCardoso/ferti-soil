@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 export const GridBackground = styled(Grid)`
  background-image: url('/images/BackgroundTreinamento.svg');
- min-height: 100vh;
+ min-height: 100%;
  width: auto;
  background-position: center;
  background-repeat: no-repeat;

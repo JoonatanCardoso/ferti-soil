@@ -7,7 +7,7 @@ export function Treinamento() {
 
     return (
     <>
-        <GridBackground container justifyContent='center' py={10}>
+        <GridBackground container id="treinamento" justifyContent='center' py={10}>
             <Grid lg={10} md={11} sm={11} xs={11}>
                 <Grid textAlign='center'>
                     <Title>{t('TITLE')}</Title>
@@ -25,17 +25,17 @@ export function Treinamento() {
                     <TextCard>{t('TEXT1')}</TextCard>
                 </Grid>
                 <Grid textAlign='center' xs={11} sm={11} md={3} lg={3} xl={3} m={1} py={2}>
-                    <ImageIcon src="/images/icon2.svg" alt="icon1"/>
+                    <ImageIcon src="/images/icon2.svg" alt="icon2"/>
                     <SubTitle>{t('TITLE2')}</SubTitle>
                     <TextCard>{t('TEXT2')}</TextCard>
                 </Grid>
                 <Grid textAlign='center' xs={11} sm={11} md={3} lg={3} xl={3} m={1} py={2}>
-                    <ImageIcon src="/images/icon4.svg" alt="icon1"/>
+                    <ImageIcon src="/images/icon4.svg" alt="icon3"/>
                     <SubTitle>{t('TITLE3')}</SubTitle>
                     <TextCard>{t('TEXT3')}</TextCard>
                 </Grid>
                 <Grid textAlign='center' xs={11} sm={11} md={3} lg={3} xl={3} m={1} py={2}>
-                    <ImageIcon src="/images/icon5.svg" alt="icon1"/>
+                    <ImageIcon src="/images/icon5.svg" alt="icon4"/>
                     <SubTitle>{t('TITLE4')}</SubTitle>
                     <TextCard>{t('TEXT4')}</TextCard>
                 </Grid>
