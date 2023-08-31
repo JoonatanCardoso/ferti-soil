@@ -14,17 +14,17 @@ export function Footer() {
   const router = useRouter()
   const socialList = [
     {
-      link: 'https://www.facebook.com/ostenmoove',
+      link: '',
       color: '#3b5998',
       icon: FacebookIcon,
     },
     {
-      link: 'https://www.instagram.com/ostenmoove/',
+      link: '',
       color: '#bc2a8d',
       icon: InstagramIcon,
     },
     {
-      link: 'https://www.linkedin.com/company/osten-moove/mycompany/',
+      link: '',
       color: '#0e76a8',
       icon: LinkedInIcon,
     },
@@ -34,7 +34,7 @@ export function Footer() {
       icon: TwitterIcon,
     },
     {
-      link: 'https://www.youtube.com/channel/UCITVAhyBT-8rXugOgvR5KWA',
+      link: '',
       color: '#c4302b',
       icon: YouTubeIcon,
     },
