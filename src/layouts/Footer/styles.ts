@@ -9,6 +9,6 @@ export const TextCopy = styled.div`
 `
 
 export const ImageLogo = styled.img`
-  width: auto;
+  width: 300px;
   height: auto;
 `

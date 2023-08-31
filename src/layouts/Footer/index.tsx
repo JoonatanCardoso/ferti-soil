@@ -42,10 +42,10 @@ export function Footer() {
 
   return (
     <>
-      <Grid container justifyContent='space-between' alignItems='center' textAlign='center'>
+      <Grid container justifyContent='space-between' alignItems='center' textAlign='center' p={2}>
         <Grid xs={12} sm={12} md={3} lg={3} xl={3} p={2}>
           <Link href='/'>
-            <ImageLogo src='/images/fertisoil.svg' alt='logo ferti soil' />
+            <ImageLogo src='images/fertisoil.png' alt='logo ferti soil' />
           </Link>
         </Grid>
         {/* <Grid xs={12} sm={12} md={4} lg={4} xl={4} p={2}>
