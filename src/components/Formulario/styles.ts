@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 export const GridBackground = styled(Grid)`
  background-image: url('/images/BackgroundFormulario.svg');
- min-height: 100vh;
+ min-height: 100%;
  width: auto;
  background-position: center;
  background-repeat: no-repeat;
@@ -19,7 +19,7 @@ export const ImageForm = styled.img`
  height: auto;
 
  @media only screen and (max-width: 499px) {
-  max-width: 200px
+  max-width: 280px
  }
 
  @media only screen and (min-width: 500px) and (max-width: 699px) {
