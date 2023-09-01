@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const Baloes = styled.img`
+  padding: 20px;
   height: auto;
   width: 50%;
   `

@@ -1,4 +1,4 @@
-import { Grid } from "@mui/material";
+import { Grid, Hidden } from "@mui/material";
 import * as i18n from 'react-i18next';
 import { Baloes, Text, Title } from "./styles";
 
@@ -8,7 +8,7 @@ export function QuemSomos() {
     return (
     <>
         <Grid container id="quem-somos" justifyContent='center' alignItems='center' py={10}>
-            <Grid lg={4} md={4} sm={10} xs={11} px={2}>
+            <Grid lg={4} md={10} sm={10} xs={11} px={2}>
                 <Title>{t('TITLE')}</Title>
                 <Text>
                     {t('TEXT1')}
@@ -17,8 +17,13 @@ export function QuemSomos() {
                     {t('TEXT2')}
                 </Text>
             </Grid>
-            <Grid container justifyContent='center' lg={5} md={5} sm={11} xs={11} p={2}>
-                <Baloes src='images/Baloes.svg'></Baloes>
+            <Grid container justifyContent='center' lg={5} md={11} sm={11} xs={11} p={2}>
+                <Hidden lgDown>
+                    <Baloes src='images/Baloes.svg'/>
+                </Hidden>
+                <Hidden lgUp>
+                    <Baloes src='images/BaloesMobile.svg'/>
+                </Hidden>
             </Grid>
         </Grid>
     </>
