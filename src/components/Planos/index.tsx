@@ -14,7 +14,7 @@ export function Planos() {
                     <SubTitle>{t('SUB_TITLE')}</SubTitle>
                 </Grid>
                 <Grid container sx={{boxShadow: '0px 5px 10px 0px rgba(0, 0, 0, 0.5)'}} direction='column' justifyContent='space-between' bgcolor={"#ffffff"} lg={3} md={3} sm={10} xs={12} margin={1} textAlign='center' minHeight={600}>
-                    <Grid py={5} bgcolor={"#CD34C7"}>
+                    <Grid py={5} bgcolor={"#a5a5a5"}>
                         <Text>
                             {t('NAMEPLANFREE')}
                         </Text>
