@@ -58,6 +58,17 @@ export type ResourceI18nType = {
     TITLE: string,
     TEXT_IMG: string,
     TEXT: string,
-
+  }
+  PASSOS: {
+    TITLE: string
+    SUB_TITLE: string
+    TITLE1: string
+    TITLE2: string
+    TITLE3: string
+    TITLE4: string
+    TEXT1: string
+    TEXT2: string
+    TEXT3: string
+    TEXT4: string
   }
 }
