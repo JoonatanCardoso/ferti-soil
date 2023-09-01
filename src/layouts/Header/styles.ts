@@ -1,8 +1,10 @@
+import { Grid } from '@mui/material';
 import styled from 'styled-components';
 
-export const Banner = styled.img`
-  height: auto;
-  width: 100%;
+export const Banner = styled(Grid)`
+  /* background-image: url('images/Banner.png'); */
+  height: 120vh;
+  width: auto;
 `
 
 export const Image = styled.img`
@@ -60,3 +62,15 @@ export const MenuDeskRight = styled.div`
     }
   }
 `;
+
+export const Title = styled.div`
+  color: white;
+  font-size: 40px;
+  font-weight: 900;
+`
+
+export const Text = styled.div`
+  color: white;
+  margin-top: 10px;
+  font-size: 26px;
+`

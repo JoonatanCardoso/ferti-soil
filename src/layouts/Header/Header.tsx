@@ -4,16 +4,32 @@ import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Drawer, Grid, Hidden, IconButton, Link } from '@mui/material';
 import MuiAppBar, { AppBarProps as MuiAppBarProps } from '@mui/material/AppBar';
+import Box from '@mui/material/Box';
 import Divider from '@mui/material/Divider';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
-import { styled } from '@mui/material/styles';
+import { styled, useTheme } from '@mui/material/styles';
 import React from 'react';
 import * as i18n from 'react-i18next';
+import SwipeableViews from 'react-swipeable-views';
+import { autoPlay } from 'react-swipeable-views-utils';
 import { Banner, Image, ImageMobile } from './styles';
 
-const drawerWidth = 240;
+const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
+
+const images = [
+  {
+    imgPath:
+      'images/Banner.png',
+  },
+  {
+    imgPath:
+      'images/Banner.png',
+  },
+];
+
+const drawerWidth = 100;
 
 const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })<{
   open?: boolean;
@@ -75,6 +91,22 @@ export function Header() {
   const handleDrawerClose = () => {
     setOpen(false);
   };
+
+    const theme = useTheme();
+    const [activeStep, setActiveStep] = React.useState(0);
+    const maxSteps = images.length;
+  
+    const handleNext = () => {
+      setActiveStep((prevActiveStep) => prevActiveStep + 1);
+    };
+  
+    const handleBack = () => {
+      setActiveStep((prevActiveStep) => prevActiveStep - 1);
+    };
+  
+    const handleStepChange = (step: number) => {
+      setActiveStep(step);
+    };
 
   return (
     <>
@@ -161,7 +193,31 @@ export function Header() {
           <SwitchButtonLanguage />
         </Grid>
       </Grid>
-      <Banner src="images/Banner.svg" alt="Banner"/>
+      <Banner container>
+        <AutoPlaySwipeableViews
+          axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
+          index={activeStep}
+          onChangeIndex={handleStepChange}
+          enableMouseEvents
+        >
+          {images.map((step, index) => (
+            <div key={step.label}>
+              {Math.abs(activeStep - index) <= 2 ? (
+                <Box
+                  component="img"
+                  sx={{
+                    minHeight: '120vh',
+                    display: 'block',
+                    overflow: 'hidden',
+                    width: '100%',
+                  }}
+                  src={step.imgPath}
+                />
+              ) : null}
+            </div>
+          ))}
+        </AutoPlaySwipeableViews>
+      </Banner>
     </>
   )
 }

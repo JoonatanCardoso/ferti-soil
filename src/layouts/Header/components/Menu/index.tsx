@@ -8,28 +8,28 @@ export function Menu() {
     <Grid container alignItems='center' justifyContent='space-between'>
       <Grid px={5}>
         <Link href="#quem-somos" underline='none' sx={{color: 'black', }}>
-          <Button sx={{color: 'black'}}>
+          <Button sx={{color: 'black', fontSize: '18px'}}>
               {t('QUEM_SOMOS')}
           </Button>
         </Link>
       </Grid>
       <Grid px={5}>
         <Link href="#planos" underline='none' sx={{color: 'black'}}>
-          <Button sx={{color: 'black'}}>
+          <Button sx={{color: 'black', fontSize: '18px'}}>
             {t('PLANOS')}
           </Button>
         </Link>
       </Grid>
       <Grid px={5}>        
         <Link href="#treinamento" underline='none' sx={{color: 'black', }}>
-        <Button sx={{color: 'black'}}>
+        <Button sx={{color: 'black', fontSize: '18px'}}>
           {t('TREINAMENTO')}
         </Button>
         </Link>
       </Grid>
       <Grid px={5}>        
         <Link href="#fale-conosco" underline='none' sx={{color: 'black', }}>
-        <Button sx={{color: 'black'}}>
+        <Button sx={{color: 'black', fontSize: '18px'}}>
           {t('FALE_CONOSCO')}
         </Button>
         </Link>
