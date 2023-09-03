@@ -8,8 +8,10 @@ export function QuemSomos() {
     return (
     <>
         <Grid container id="quem-somos" justifyContent='center' alignItems='center' py={10}>
-            <Grid lg={10} md={10} sm={11} xs={11} px={2} pb={10} textAlign='center'>
-                <Title>{t('TEXT')}</Title>
+            <Grid lg={10} md={10} sm={11} xs={10} px={2} pb={5} textAlign='center'>
+                <Title>
+                    {t('TEXT')}
+                </Title>
                 <Text>
                     {t('SLOGAN')}
                 </Text>
