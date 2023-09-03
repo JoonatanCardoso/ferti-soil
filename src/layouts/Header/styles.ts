@@ -7,6 +7,11 @@ export const Banner = styled(Grid)`
   width: auto;
 `
 
+export const GridImg = styled.img`
+  height: 120vh;
+  width: auto;
+`
+
 export const Image = styled.img`
   height: 100px;
   width: auto;

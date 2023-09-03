@@ -2,9 +2,8 @@ import { Menu } from '@/layouts/Header/components/Menu';
 import { SwitchButtonLanguage } from '@/layouts/Header/components/SwitchButtonLanguage';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import MenuIcon from '@mui/icons-material/Menu';
-import { Drawer, Grid, Hidden, IconButton, Link } from '@mui/material';
+import { Box, Drawer, Grid, Hidden, IconButton, Link } from '@mui/material';
 import MuiAppBar, { AppBarProps as MuiAppBarProps } from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
 import Divider from '@mui/material/Divider';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
@@ -25,7 +24,7 @@ const images = [
   },
   {
     imgPath:
-      'images/Banner.png',
+      'images/Banner2.png',
   },
 ];
 
@@ -95,14 +94,6 @@ export function Header() {
     const theme = useTheme();
     const [activeStep, setActiveStep] = React.useState(0);
     const maxSteps = images.length;
-  
-    const handleNext = () => {
-      setActiveStep((prevActiveStep) => prevActiveStep + 1);
-    };
-  
-    const handleBack = () => {
-      setActiveStep((prevActiveStep) => prevActiveStep - 1);
-    };
   
     const handleStepChange = (step: number) => {
       setActiveStep(step);
