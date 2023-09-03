@@ -28,7 +28,7 @@ const images = [
   },
 ];
 
-const drawerWidth = 100;
+const drawerWidth = 250;
 
 const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })<{
   open?: boolean;
