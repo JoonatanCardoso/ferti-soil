@@ -1,14 +1,10 @@
 import { ResourceI18nType } from '@/i18n/locates/type'
 
 export const PassosEN: ResourceI18nType['PASSOS'] = {
-  TITLE: 'Our precision agriculture training!',
+  TITLE: 'This is how Ferti Soil works.',
   SUB_TITLE: 'For those who acquire the system, we offer comprehensive and personalized training, led by the Ferti Soil team. This ensures you are prepared to make the most of our precision agriculture platform, empowering you to make informed decisions and optimize the outcomes of your farming operation.',
-  TITLE1: 'Acquisition and Preparation',
-  TITLE2: 'Introduction to the Platform',
-  TITLE3: 'Use of Tools',
-  TITLE4: 'Problem Solving and Support',
-  TEXT1: 'After acquisition, we schedule training according to your needs.',
-  TEXT2: 'Familiarization with the interface and functionalities.',
-  TEXT3: 'Exploration of features like drones and GPS for monitoring.',
-  TEXT4: 'Guidance on handling challenges and access to technical support.',
+  TEXT1: 'With the Fertisoil App, change the way you do soil sampling. Use it in the field, without internet, directly on your phone or tablet. Create custom sampling plots and grids that meet the needs of your area.',
+  TEXT2: 'With Fertisoil, you can import sample results and generate interactive maps of soil components. This provides a clear view of the soil characteristics in different areas, facilitating precise recommendation planning.',
+  TEXT3: 'Fertisoil generates accurate recommendations based on soil sample results. These recommendations are tailored to meet the specific needs of your area, assisting in the efficient use of fertilizers and in improving soil quality.',
+  TEXT4: 'Fertisoil allows you to export recommendations directly to the planting monitor. This ensures that planned fertilization actions are executed precisely during planting, optimizing resource use and promoting healthy crop growth.',
 }

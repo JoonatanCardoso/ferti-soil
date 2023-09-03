@@ -11,6 +11,7 @@ export const GridBackground = styled(Grid)`
 `
 
 export const ImageIcon = styled.img`
+  padding: 20px;
   width: 80px;
   height: auto;
 `

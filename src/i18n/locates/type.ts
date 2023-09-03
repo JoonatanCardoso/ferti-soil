@@ -17,6 +17,8 @@ export type ResourceI18nType = {
     PLANOS: string
     TREINAMENTO: string
     FALE_CONOSCO: string
+    TITLE: string
+    SUB_TITLE: string
   }
   QUEM_SOMOS: {
     TITLE: string
@@ -62,10 +64,6 @@ export type ResourceI18nType = {
   PASSOS: {
     TITLE: string
     SUB_TITLE: string
-    TITLE1: string
-    TITLE2: string
-    TITLE3: string
-    TITLE4: string
     TEXT1: string
     TEXT2: string
     TEXT3: string
