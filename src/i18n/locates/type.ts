@@ -17,13 +17,13 @@ export type ResourceI18nType = {
     PLANOS: string
     TREINAMENTO: string
     FALE_CONOSCO: string
-    TITLE: string
-    SUB_TITLE: string
   }
   QUEM_SOMOS: {
     TITLE: string
     TEXT1: string
     TEXT2: string
+    TEXT: string
+    SLOGAN: string
   }
   PLANOS: {
     TITLE: string

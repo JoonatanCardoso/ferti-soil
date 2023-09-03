@@ -5,6 +5,4 @@ export const MenuEN: ResourceI18nType['MENU'] = {
   PLANOS: 'Plans',
   TREINAMENTO: 'Training',
   FALE_CONOSCO: 'Contact us',
-  TITLE: 'Fertisoil: From Sampling to Recommendation, Recommending the Success of Your Land.',
-  SUB_TITLE: 'Transforming agriculture with advanced technology, Fertisoil is your ally for efficient soil sampling and accurate recommendations.',
 }
