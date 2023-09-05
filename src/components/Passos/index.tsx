@@ -20,19 +20,19 @@ export function Passos() {
             </Grid> */}
             <Grid container justifyContent='center' lg={12} md={12} sm={12} xs={11}>
                 <Grid textAlign='center' xs={11} sm={11} md={4} lg={2} xl={2} m={2} py={2}>
-                    <ImageIcon src="/images/passo1.png" alt="icon1"/>
+                    <ImageIcon src="/images/pass1.png" alt="icon1"/>
                     <TextCard>{t('TEXT1')}</TextCard>
                 </Grid>
                 <Grid textAlign='center' xs={11} sm={11} md={4} lg={2} xl={2} m={2} py={2}>
-                    <ImageIcon src="/images/passo2.png" alt="icon2"/>
+                    <ImageIcon src="/images/pass2.png" alt="icon2"/>
                     <TextCard>{t('TEXT2')}</TextCard>
                 </Grid>
                 <Grid textAlign='center' xs={11} sm={11} md={4} lg={2} xl={2} m={2} py={2}>
-                    <ImageIcon src="/images/passo3.png" alt="icon3"/>
+                    <ImageIcon src="/images/pass3.png" alt="icon3"/>
                     <TextCard>{t('TEXT3')}</TextCard>
                 </Grid>
                 <Grid textAlign='center' xs={11} sm={11} md={4} lg={2} xl={2} m={2} py={2}>
-                    <ImageIcon src="/images/passo4.png" alt="icon4"/>
+                    <ImageIcon src="/images/pass4.png" alt="icon4"/>
                     <TextCard>{t('TEXT4')}</TextCard>
                 </Grid>
             </Grid>
