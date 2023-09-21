@@ -192,7 +192,7 @@ export function Header() {
           enableMouseEvents
         >
           {images.map((step, index) => (
-            <div key={step.label}>
+            <div key={step.imgPath}>
               {Math.abs(activeStep - index) <= 2 ? (
                 <Box
                   component="img"
